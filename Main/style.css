@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.button {
+    display: inline-block !important;
+    width: 200px !important;
+    padding: 10px !important;
+    margin: 10px !important;
+    font-size: 1.2rem !important;
+    color: white !important;
+    background-color: #3498db !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    /* Rimuove il sottolineato */
+    transition: background 0.3s !important;
+}
+
+
+.button:hover {
+    background-color: #2980b9;
+}
