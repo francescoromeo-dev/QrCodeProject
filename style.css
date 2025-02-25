@@ -1,9 +1,11 @@
-*{
+* {
     box-sizing: border-box
 }
+
 html {
-    height:100%;
+    height: 100%;
 }
+
 body {
     min-height: 100%;
     margin: 0;
@@ -13,24 +15,25 @@ body {
     line-height: 1.5;
 }
 
-img{
+img {
     vertical-align: middle;
     max-width: 100%;
     display: inline-block;
+    /*Aggiungo animazione*/
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
-h2{
+
+h2 {
     font-size: 50px;
     background: #ff6a00;
-    background: -webkit-linear-gradient(
-        to right,
-        #ff6a00,
-        #ee0979
-    );
-    background: linear-gradient(
-        to right,
-        #ff6a00,
-        #ee0979
-    );
+    background: -webkit-linear-gradient(to right,
+            #ff6a00,
+            #ee0979);
+    background: linear-gradient(to right,
+            #ff6a00,
+            #ee0979);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -39,8 +42,9 @@ h2{
     max-width: 100%;
     display: inline-block;
 }
+
 .page-wrapper {
-    z-index:0;
+    z-index: 0;
     display: relative;
 }
 
@@ -54,21 +58,22 @@ h2{
 .margin-bottom-medium {
     margin-bottom: 32px;
 }
-.paragraph-large{
+
+.paragraph-large {
     letter-spacing: -0.02em;
     font-size: 20px;
 }
 
-.section-timeline-heading{
+.section-timeline-heading {
     background-color: #0a0a0a;
 }
 
-.padding-vertical-xlarge{
+.padding-vertical-xlarge {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.timeline-main_heading-wrapper{
+.timeline-main_heading-wrapper {
     color: #fff;
     text-align: center;
     max-width: 640px;
@@ -76,7 +81,7 @@ h2{
     margin-right: auto;
 }
 
-.timeline_component{
+.timeline_component {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -87,7 +92,7 @@ h2{
     position: relative;
 }
 
-.timeline_item{
+.timeline_item {
     z-index: 2;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -100,7 +105,7 @@ h2{
     position: relative;
 }
 
-.timeline_left{
+.timeline_left {
     text-align: right;
     justify-content: flex-end;
     align-items: stretch;
@@ -111,27 +116,36 @@ h2{
     display: flex;
 }
 
-.timeline_date-text{
-    color:#fff;
+.timeline_date-text {
+    color: #fff;
     letter-spacing: -0.03em;
     font-size: 48px;
     font-weight: 500;
     line-height: 1.2;
     position: sticky;
     top: 50vh;
+    /*Aggiungo animazione*/
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
-.timeline_text{
-    color:#fff;
+
+.timeline_text {
+    color: #fff;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.3;
+    /*Aggiungo animazione*/
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
-.timeline_circle{
+.timeline_circle {
     background-color: #fff;
     border-radius: 100%;
     width: 15px;
-    min-width:15px ;
+    min-width: 15px;
     max-width: 15px;
     height: 15px;
     min-height: 15px;
@@ -141,7 +155,7 @@ h2{
     box-shadow: 0 0 0 8px #0a0a0a;
 }
 
-.timeline_progress{
+.timeline_progress {
     z-index: -2;
     background-color: #414141;
     width: 3px;
@@ -149,19 +163,15 @@ h2{
     position: absolute;
 }
 
-.timeline_progress-bar{
+.timeline_progress-bar {
     z-index: -1;
     background: #ff6a00;
-    background: -webkit-linear-gradient(
-        to bottom,
-        #ff6a00,
-        #ee0979
-    );
-    background: linear-gradient(
-        to bottom,
-        #ff6a00,
-        #ee0979
-    );
+    background: -webkit-linear-gradient(to bottom,
+            #ff6a00,
+            #ee0979);
+    background: linear-gradient(to bottom,
+            #ff6a00,
+            #ee0979);
 
     width: 3px;
     height: 50vh;
@@ -169,22 +179,22 @@ h2{
     inset: 0 auto 50vh;
 }
 
-.section-timeline{
+.section-timeline {
     z-index: -3;
     background-color: #0a0a0a;
     position: relative;
 }
 
-.margin-bottom-xlarge{
+.margin-bottom-xlarge {
     margin-bottom: 56px;
 }
 
-.timeline_link{
+.timeline_link {
     opacity: 0.6;
-    color:#fff;
+    color: #fff;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    border-radius:8px;
+    border-radius: 8px;
     align-items: center;
     font-size: 14px;
     font-weight: 700;
@@ -194,75 +204,98 @@ h2{
     display: flex;
 }
 
-.timeline_link:hover{
+.timeline_link:hover {
     opacity: 1;
 }
 
-.link-icon{
+.link-icon {
     width: 20px;
     height: 20px;
     margin-left: 8px;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
 }
 
-.text-colour-lightgrey{
+.text-colour-lightgrey {
     color: #ffffffa6
 }
 
-.overlay-fade-top{
+.overlay-fade-top {
     background-image: linear-gradient(#0a0a0a, #0a0a0a00);
     height: 80px;
     position: absolute;
     inset: 0% 0% auto;
 }
 
-.overlay-fade-top{
+.overlay-fade-top {
     background-image: linear-gradient(to top, #0a0a0a, #0a0a0a00);
     height: 80px;
     position: absolute;
     inset: 0% 0%;
 }
 
-@media screen and (max-width:767px){
-    h2{
+@media screen and (max-width:767px) {
+    h2 {
         font-size: 40px;
     }
-    .paragraph-large{
+
+    .paragraph-large {
         font-size: 18px;
     }
-    .padding-vertical-xlarge{
-        padding-top:80px;
-        padding-bottom:80px;
+
+    .padding-vertical-xlarge {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
-    .timeline_item{
+
+    .timeline_item {
         grid-template-columns: 64px 1fr;
         width: 100%;
     }
-    .timeline_left{
+
+    .timeline_left {
         text-align: left;
         grid-area: 1 / 2 / 2 / 3;
     }
-    .timeline_centre{
+
+    .timeline_centre {
         justify-content: flex-start;
         grid-area: 1 / 1 / 3 / 2;
     }
-    .timeline_right{
+
+    .timeline_right {
         grid-area: span 1 / span 1 / span 1 / span 1;
     }
-    .timeline_date-text{
-        margin-bottom:24px;
+
+    .timeline_date-text {
+        margin-bottom: 24px;
         font-size: 36px;
     }
-    .timeline_text{
+
+    .timeline_text {
         font-size: 20px;
     }
-    .timeline_progress{
+
+    .timeline_progress {
         left: 6px;
     }
-    .margin-bottom-xlarge{
-        margin-bottom:48px;
+
+    .margin-bottom-xlarge {
+        margin-bottom: 48px;
+    }
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
     }
 }
