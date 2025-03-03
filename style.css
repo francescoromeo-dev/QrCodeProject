@@ -22,7 +22,7 @@ img {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     background: #FF7F00;
     background: -webkit-linear-gradient(to right,
             #FF7F00,
@@ -124,7 +124,7 @@ h2 {
 
 .timeline_text {
     color: #fff;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.3;
 }
