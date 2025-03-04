@@ -22,7 +22,7 @@ img {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 34px;
     background: #FF7F00;
     background: -webkit-linear-gradient(to right,
             #FF7F00,
@@ -115,7 +115,7 @@ h2 {
 .timeline_date-text {
     color: #fff;
     letter-spacing: -0.03em;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.2;
     position: sticky;
@@ -124,7 +124,7 @@ h2 {
 
 .timeline_text {
     color: #fff;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 1.3;
 }
