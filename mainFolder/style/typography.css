@@ -1,0 +1,32 @@
+h2 {
+    font-size: 40px;
+    background: linear-gradient(to right, #FF7F00, #FFC300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paragraph-large {
+    letter-spacing: -0.02em;
+    font-size: 20px;
+}
+
+.timeline_date-text {
+    color: #fff;
+    letter-spacing: -0.03em;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    position: sticky;
+    top: 50vh;
+}
+
+.timeline_text {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.text-colour-lightgrey {
+    color: #ffffffa6;
+}
