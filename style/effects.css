@@ -1,6 +1,0 @@
-.overlay-fade-top {
-    background-image: linear-gradient(to top, #0a0a0a, #0a0a0a00);
-    height: 80px;
-    position: absolute;
-    inset: 0% 0%;
-}
