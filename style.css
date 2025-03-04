@@ -226,7 +226,7 @@ h2 {
 
 @media screen and (max-width:767px) {
     h2 {
-        font-size: 40px;
+        font-size: 34px;
     }
 
     .paragraph-large {
@@ -259,11 +259,11 @@ h2 {
 
     .timeline_date-text {
         margin-bottom: 24px;
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .timeline_text {
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .timeline_progress {
