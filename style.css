@@ -22,7 +22,9 @@ img {
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 38px;
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
     background: #FF7F00;
     background: -webkit-linear-gradient(to right,
             #FF7F00,
