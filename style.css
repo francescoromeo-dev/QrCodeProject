@@ -41,37 +41,37 @@ h2 {
     display: inline-block;
 }
 
-.page-wrapper {
+.contenitore-pagina {
     z-index: 0;
     display: relative;
 }
 
-.container {
+.contenitore {
     width: 90vw;
     max-width: 1360px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.margin-bottom-medium {
+.margine-inferiore-medio {
     margin-bottom: 32px;
 }
 
-.paragraph-large {
+.paragrafo-sotto_intestazione {
     letter-spacing: -0.02em;
     font-size: 20px;
 }
 
-.section-timeline-heading {
+.intestazione-timeline {
     background-color: #0a0a0a;
 }
 
-.padding-vertical-xlarge {
+.padding-verticale-grande {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.timeline-main_heading-wrapper {
+.intestazione_principale-timeline {
     color: #fff;
     text-align: center;
     max-width: 640px;
@@ -79,7 +79,7 @@ h2 {
     margin-right: auto;
 }
 
-.timeline_component {
+.componente_timeline {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@ h2 {
     display: flex;
 }
 
-.timeline_date-text {
+.timeline_left-text {
     color: #fff;
     letter-spacing: -0.03em;
     font-size: 32px;
@@ -153,7 +153,7 @@ h2 {
     position: absolute;
 }
 
-.timeline_progress-bar {
+.timeline_progress_dynamic {
     z-index: -1;
     background: #FF7F00;
     background: -webkit-linear-gradient(to bottom,
@@ -169,7 +169,7 @@ h2 {
     inset: 0 auto 50vh;
 }
 
-.section-timeline {
+.sezione-timeline {
     z-index: -3;
     background-color: #0a0a0a;
     position: relative;
@@ -231,11 +231,11 @@ h2 {
         font-size: 34px;
     }
 
-    .paragraph-large {
+    .paragrafo-sotto_intestazione {
         font-size: 18px;
     }
 
-    .padding-vertical-xlarge {
+    .padding-verticale-grande {
         padding-top: 80px;
         padding-bottom: 80px;
     }
@@ -259,7 +259,7 @@ h2 {
         grid-area: span 1 / span 1 / span 1 / span 1;
     }
 
-    .timeline_date-text {
+    .timeline_left-text {
         margin-bottom: 24px;
         font-size: 32px;
     }
